@@ -7,7 +7,7 @@ const httpsAgent = new https.Agent({
 });
 
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 100; i++) {
     axios.get('https://localhost:3000', {httpsAgent})
 }
 

@@ -9,7 +9,7 @@ const session = http2.connect('https://localhost:3000', {
     ca: cert
 });
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 100; i++) {
     const stream = session.request({ ':path': '/', ':method': 'GET' });
     stream.on('response', (headers, flags) => {        
         stream.on('data', (chunk) => {
