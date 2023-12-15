@@ -1,4 +1,4 @@
-# 원시값, 객체의 비교
+# Chap 11 원시값, 객체의 비교
 
 ## 원시값 primitive value
 * 원시값(primitive value)는 변경이 불가능한 값이다.

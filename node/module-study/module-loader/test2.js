@@ -1,3 +1,3 @@
-import('./esm/index.mjs').then(d => {
+import('./esm.mjs').then(d => {
     d.default();
 })

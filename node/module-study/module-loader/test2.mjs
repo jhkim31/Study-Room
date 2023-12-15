@@ -1,2 +1,2 @@
-import foo from "./cjs/index.js";
+import foo from "./cjs.js";
 foo();
