@@ -5,7 +5,11 @@ function add() {
 function show(){
     console.log(a);
 }
+setTimeout(() => {
+    add();
+    add()
 
+}, 1000)
 module.exports = {
     add, show
 }

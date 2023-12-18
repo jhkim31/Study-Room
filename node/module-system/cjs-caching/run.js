@@ -15,5 +15,9 @@ b.show();
 a.show();
 b.show();
 
-console.log(et1 - st1);
-console.log(et2 - st2);
+// console.log(et1 - st1);
+// console.log(et2 - st2);
+
+setTimeout(() => {
+    a.show();
+}, 2000);
